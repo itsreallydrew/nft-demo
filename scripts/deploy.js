@@ -7,37 +7,8 @@ const main = async () => {
 	console.log('Contract deployed to: ', nftContract.address);
 
 	let txn = await nftContract.makeAnNFT();
-
 	await txn.wait();
-
-	txn = await nftContract.makeAnNFT();
-
-	await txn.wait();
-
-	txn = await nftContract.makeAnNFT();
-
-	await txn.wait();
-
-	txn = await nftContract.makeAnNFT();
-
-	await txn.wait();
-
-	txn = await nftContract.makeAnNFT();
-
-	await txn.wait();
-
-	txn = await nftContract.makeAnNFT();
-
-	await txn.wait();
-	txn = await nftContract.makeAnNFT();
-
-	await txn.wait();
-	txn = await nftContract.makeAnNFT();
-
-	await txn.wait();
-	txn = await nftContract.makeAnNFT();
-
-	await txn.wait();
+	console.log('NFT minted!');
 };
 
 const runMain = async () => {
