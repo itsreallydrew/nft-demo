@@ -8,9 +8,9 @@ This is the smart contract that the NFT-NAMZ website interacts with. The code is
 
 ### What I learned
 
-I learned how to encode NFTs and store the data on-chain. This was very interesting and exposed me to some new techniques that I was nor previously aware of. I am excited to be able to expand upon this knowledge and apply it to situations in the real world.
+I learned how to encode NFTs and store the data on-chain. This was very interesting and exposed me to some new techniques that I was not previously aware of. I am excited to be able to expand upon this knowledge and apply it to situations in the real world.
 
-The code below is something I am the most proud of. It demonstrates how I was able to break up the SVG file to for random generation of the background color and text color. I used this as an opportunity to challenge myself.
+The code below is something I am the most proud of. It demonstrates how I was able to break up the SVG file for random generation of the background color and text color. I used this as an opportunity to challenge myself.
 
 ```javascript
     string svgPartOne =
